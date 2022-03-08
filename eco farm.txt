@@ -1,0 +1,740 @@
+[
+    {
+        "id": "4ae7feba2844407f",
+        "type": "tab",
+        "label": "Live data",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "318d16db84e21906",
+        "type": "tab",
+        "label": "Charts",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d305855b8c15755b",
+        "type": "tab",
+        "label": "Data",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "60ab77d65eeb177a",
+        "type": "group",
+        "z": "d305855b8c15755b",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "6009f10251366944",
+            "a48012b8ba256841",
+            "52b9196ee73912b4",
+            "995c8325a14b4061"
+        ],
+        "x": 414,
+        "y": 99,
+        "w": 592,
+        "h": 162
+    },
+    {
+        "id": "27b89fb89bce1843",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Eco Farm",
+            "hideToolbar": "false",
+            "allowSwipe": "menu",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "07915d3e224f656d",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "2347debe3dafefbd",
+        "order": 1,
+        "disp": false,
+        "width": "3",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2347debe3dafefbd",
+        "type": "ui_tab",
+        "name": "Live data ",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "38cce5c6266f318f",
+        "type": "ui_tab",
+        "name": "Charts",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d43ff7846d4f9027",
+        "type": "ui_group",
+        "name": "sensors",
+        "tab": "38cce5c6266f318f",
+        "order": 1,
+        "disp": false,
+        "width": "15",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fb714fa210eead5f",
+        "type": "ui_group",
+        "name": "Group 2",
+        "tab": "2347debe3dafefbd",
+        "order": 2,
+        "disp": false,
+        "width": "3",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "eb481e9ed0c5147f",
+        "type": "ui_group",
+        "name": "Group 3",
+        "tab": "2347debe3dafefbd",
+        "order": 3,
+        "disp": false,
+        "width": "3",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "45d75f611b165e29",
+        "type": "inject",
+        "z": "d305855b8c15755b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "0.5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"ppm\":51,\"ph\":7,\"temp\":10}",
+        "payloadType": "json",
+        "x": 110,
+        "y": 220,
+        "wires": [
+            [
+                "498c3bbef17a9050"
+            ]
+        ]
+    },
+    {
+        "id": "498c3bbef17a9050",
+        "type": "json",
+        "z": "d305855b8c15755b",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 310,
+        "y": 220,
+        "wires": [
+            [
+                "a48012b8ba256841",
+                "d58fb0285bed4dd2"
+            ]
+        ]
+    },
+    {
+        "id": "6009f10251366944",
+        "type": "file",
+        "z": "d305855b8c15755b",
+        "g": "60ab77d65eeb177a",
+        "name": "",
+        "filename": "eco_farm.log.txt",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 900,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a48012b8ba256841",
+        "type": "change",
+        "z": "d305855b8c15755b",
+        "g": "60ab77d65eeb177a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.time",
+                "pt": "msg",
+                "to": "",
+                "tot": "date"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 220,
+        "wires": [
+            [
+                "52b9196ee73912b4"
+            ]
+        ]
+    },
+    {
+        "id": "52b9196ee73912b4",
+        "type": "csv",
+        "z": "d305855b8c15755b",
+        "g": "60ab77d65eeb177a",
+        "name": "js to csv",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "ppm,ph,temp,time",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 720,
+        "y": 220,
+        "wires": [
+            [
+                "6009f10251366944"
+            ]
+        ]
+    },
+    {
+        "id": "995c8325a14b4061",
+        "type": "comment",
+        "z": "d305855b8c15755b",
+        "g": "60ab77d65eeb177a",
+        "name": "store data ",
+        "info": "sekoja linija e dodadena\n+ timestamp",
+        "x": 500,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "fa50f3eb9765cced",
+        "type": "inject",
+        "z": "d305855b8c15755b",
+        "name": "",
+        "props": [],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 170,
+        "y": 660,
+        "wires": [
+            [
+                "1f66d916ff46c53c"
+            ]
+        ]
+    },
+    {
+        "id": "3f062d7144bee82d",
+        "type": "ui_probe",
+        "z": "d305855b8c15755b",
+        "name": "pH",
+        "group": "d43ff7846d4f9027",
+        "order": 4,
+        "width": "15",
+        "height": 2,
+        "label": "pH sensor",
+        "removeOlder": 1,
+        "removeOlderUnit": "60",
+        "decimal": 0,
+        "symbol": "ph",
+        "scale": true,
+        "minin": "0",
+        "maxin": "14",
+        "minout": "0",
+        "maxout": "14",
+        "x": 930,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1f66d916ff46c53c",
+        "type": "exec",
+        "z": "d305855b8c15755b",
+        "command": "tail",
+        "addpay": "",
+        "append": "eco_farm.log.txt",
+        "useSpawn": "true",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 310,
+        "y": 660,
+        "wires": [
+            [
+                "71c96079ed95cea5",
+                "667e2e0cc95cd2ef",
+                "57e34a71be030a47",
+                "a28f895c32e5aba1",
+                "085b07c84eaec8e5"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "71c96079ed95cea5",
+        "type": "csv",
+        "z": "d305855b8c15755b",
+        "name": "csv to js for ppm",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "mult",
+        "ret": "\\n",
+        "temp": "y,ph,temp,x",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 560,
+        "y": 620,
+        "wires": [
+            [
+                "3f062d7144bee82d"
+            ]
+        ]
+    },
+    {
+        "id": "1372fdeef933ea3e",
+        "type": "comment",
+        "z": "d305855b8c15755b",
+        "name": "get data for sensors array",
+        "info": "vrednostite gi cita kako array za senzorite\nx time\ny vrednost\n",
+        "x": 430,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "667e2e0cc95cd2ef",
+        "type": "csv",
+        "z": "d305855b8c15755b",
+        "name": "csv to js for ph",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "mult",
+        "ret": "\\n",
+        "temp": "ppm,y,temp,x",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 560,
+        "y": 660,
+        "wires": [
+            [
+                "adbe9728213c4f2f"
+            ]
+        ]
+    },
+    {
+        "id": "57e34a71be030a47",
+        "type": "csv",
+        "z": "d305855b8c15755b",
+        "name": "csv to js for temp",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "mult",
+        "ret": "\\n",
+        "temp": "ppm,ph,y,x",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 570,
+        "y": 700,
+        "wires": [
+            [
+                "d1447c101ba71280"
+            ]
+        ]
+    },
+    {
+        "id": "a28f895c32e5aba1",
+        "type": "csv",
+        "z": "d305855b8c15755b",
+        "d": true,
+        "name": "csv to js ",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "mult",
+        "ret": "\\n",
+        "temp": "ppm,ph,temp,time",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 540,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "085b07c84eaec8e5",
+        "type": "csv",
+        "z": "d305855b8c15755b",
+        "d": true,
+        "name": "csv to js ",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "mult",
+        "ret": "\\n",
+        "temp": "ppm,ph,temp,time",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 540,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "adbe9728213c4f2f",
+        "type": "ui_probe",
+        "z": "d305855b8c15755b",
+        "name": "ppm ",
+        "group": "d43ff7846d4f9027",
+        "order": 3,
+        "width": "15",
+        "height": 2,
+        "label": "ppm sensor",
+        "removeOlder": 1,
+        "removeOlderUnit": "60",
+        "decimal": 0,
+        "symbol": "",
+        "scale": false,
+        "minin": "",
+        "maxin": "",
+        "minout": "",
+        "maxout": "",
+        "x": 930,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d1447c101ba71280",
+        "type": "ui_probe",
+        "z": "d305855b8c15755b",
+        "name": "temp",
+        "group": "d43ff7846d4f9027",
+        "order": 4,
+        "width": "15",
+        "height": 2,
+        "label": "Temp sensor",
+        "removeOlder": 1,
+        "removeOlderUnit": "60",
+        "decimal": 0,
+        "symbol": "",
+        "scale": false,
+        "minin": "",
+        "maxin": "",
+        "minout": "",
+        "maxout": "",
+        "x": 930,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d58fb0285bed4dd2",
+        "type": "link out",
+        "z": "d305855b8c15755b",
+        "name": "js serial",
+        "mode": "link",
+        "links": [
+            "017be4ed61d980b1"
+        ],
+        "x": 445,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "017be4ed61d980b1",
+        "type": "link in",
+        "z": "d305855b8c15755b",
+        "name": "",
+        "links": [
+            "d58fb0285bed4dd2"
+        ],
+        "x": 1125,
+        "y": 320,
+        "wires": [
+            [
+                "bd89b13b6cf53d96",
+                "e7d8c681bfc6f521",
+                "ac7bcc60fbfacbfb"
+            ]
+        ]
+    },
+    {
+        "id": "bd89b13b6cf53d96",
+        "type": "ui_text",
+        "z": "d305855b8c15755b",
+        "group": "fb714fa210eead5f",
+        "order": 1,
+        "width": 3,
+        "height": 3,
+        "name": "",
+        "label": "ppm",
+        "format": "{{msg.payload.ppm}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 1350,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "e7d8c681bfc6f521",
+        "type": "ui_gauge",
+        "z": "d305855b8c15755b",
+        "name": "",
+        "group": "07915d3e224f656d",
+        "order": 1,
+        "width": 3,
+        "height": 3,
+        "gtype": "gage",
+        "title": "temp",
+        "label": "units",
+        "format": "{{msg.payload.temp}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00ffff",
+            "#00ffff",
+            "#00ffff"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 1350,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "ac7bcc60fbfacbfb",
+        "type": "ui_gauge",
+        "z": "d305855b8c15755b",
+        "name": "",
+        "group": "eb481e9ed0c5147f",
+        "order": 1,
+        "width": 3,
+        "height": 3,
+        "gtype": "gage",
+        "title": "pH",
+        "label": "pH",
+        "format": "{{msg.payload.ph}}",
+        "min": "0",
+        "max": "14",
+        "colors": [
+            "#f20707",
+            "#00e639",
+            "#fff700"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 1350,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "9ff0cdf7e49f3d5c",
+        "type": "ui_heater_controller",
+        "z": "d305855b8c15755b",
+        "name": "heater",
+        "group": "d43ff7846d4f9027",
+        "unit": "C",
+        "displayMode": "slider",
+        "order": 3,
+        "width": "7",
+        "height": "6",
+        "topic": "",
+        "title": "Heater",
+        "logLength": 0,
+        "sliderMinValue": 10,
+        "sliderMaxValue": 35,
+        "sliderStep": 0.5,
+        "threshold": 0.5,
+        "calendar": "{\n    \"Monday\": {\n        \"00:00\": 19,\n        \"06:20\": 22,\n        \"08:00\": 19,\n        \"16:40\": 22,\n        \"23:59\": 19\n    },\n    \"Tuesday\": {\n        \"00:00\": 19,\n        \"06:20\": 29,\n        \"08:00\": 19,\n        \"16:40\": 22,\n        \"23:59\": 19\n    },\n    \"Wednesday\": {\n        \"00:00\": 19,\n        \"06:20\": 22,\n        \"08:00\": 19,\n        \"16:40\": 22,\n        \"23:59\": 19\n    },\n    \"Thursday\": {\n        \"00:00\": 19,\n        \"06:20\": 22,\n        \"08:00\": 19,\n        \"16:40\": 22,\n        \"23:59\": 19\n    },\n    \"Friday\": {\n        \"00:00\": 19,\n        \"06:20\": 23,\n        \"08:00\": 19,\n        \"16:40\": 22,\n        \"23:59\": 19\n    },\n    \"Saturday\": {\n        \"00:00\": 19,\n        \"08:00\": 20,\n        \"20:00\": 22,\n        \"23:59\": 19\n    },\n    \"Sunday\": {\n        \"00:00\": 19,\n        \"08:00\": 20,\n        \"20:00\": 22,\n        \"23:59\": 19\n    }\n}",
+        "x": 970,
+        "y": 1060,
+        "wires": [
+            [],
+            []
+        ],
+        "inputLabels": [
+            "currentTemp | userConfig | setCalendar | config | status"
+        ],
+        "outputLabels": [
+            "Heater status",
+            "Info"
+        ]
+    },
+    {
+        "id": "d4528604db6af6d0",
+        "type": "inject",
+        "z": "d305855b8c15755b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "currentTemp",
+        "payload": "23",
+        "payloadType": "num",
+        "x": 800,
+        "y": 1060,
+        "wires": [
+            [
+                "9ff0cdf7e49f3d5c"
+            ]
+        ]
+    }
+]
